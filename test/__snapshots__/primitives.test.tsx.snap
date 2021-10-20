@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Primitive components bigint 1`] = `
+<span
+  className="dt-bigint"
+>
+  213476893621
+  n
+</span>
+`;
+
+exports[`Primitive components boolean 1`] = `
+<span
+  className="dt-boolean bool_true"
+>
+  true
+</span>
+`;
+
+exports[`Primitive components null 1`] = `
+<span
+  className="dt-null"
+>
+  null
+</span>
+`;
+
+exports[`Primitive components number 1`] = `
+<span
+  className="dt-number"
+>
+  0.3333333333333333
+</span>
+`;
+
+exports[`Primitive components string 1`] = `
+<span
+  className="dt-string"
+>
+  "
+  Test string
+  "
+</span>
+`;
+
+exports[`Primitive components undefined 1`] = `
+<span
+  className="dt-undefined"
+>
+  undefined
+</span>
+`;

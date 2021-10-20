@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`function renderer anonymous 1`] = `
+<span
+  className="dt-function"
+>
+  <span
+    className="function_lparen"
+  >
+    (
+  </span>
+  <span
+    className="function_args"
+  >
+    arg0, arg1, arg2
+  </span>
+  <span
+    className="function_rparen"
+  >
+    )
+  </span>
+  <span
+    className="function_arrow"
+  >
+    =&gt;
+  </span>
+  <span
+    className="function_body"
+  >
+    {…}
+  </span>
+</span>
+`;
+
+exports[`function renderer named 1`] = `
+<span
+  className="dt-function"
+>
+  <span
+    className="function_keyword"
+  >
+    function
+  </span>
+  <span
+    className="function_name"
+  >
+    foo
+  </span>
+  <span
+    className="function_lparen"
+  >
+    (
+  </span>
+  <span
+    className="function_args"
+  >
+    arg0, arg1, arg2
+  </span>
+  <span
+    className="function_rparen"
+  >
+    )
+  </span>
+  <span
+    className="function_body"
+  >
+    {…}
+  </span>
+</span>
+`;

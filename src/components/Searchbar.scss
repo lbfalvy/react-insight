@@ -1,0 +1,11 @@
+.insight__searchbar {
+    input {
+        border-bottom: 2px solid white;
+        &.error {
+            border-bottom-color: #f66;
+        }
+        &.insight__searchbar_label {
+            border-bottom-color: #66f;
+        }
+    }
+}

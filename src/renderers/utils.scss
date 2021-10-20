@@ -1,0 +1,45 @@
+:root {
+    background-color: #181818;
+    color: #eee;
+    font-family: 'Source Code Pro';
+}
+
+.insight__nametag {
+    color: #e4e;
+    padding-right: 1ch;
+}
+
+.insight__param {
+    color: #999;
+}
+
+.insight__toggle {
+    cursor: pointer;
+    color: #888;
+}
+
+.insight__description {
+    padding-left: 1ch;
+    color: #666;
+    font-style: italic;
+}
+
+.inisght__key {
+    color: #79c3ff;
+}
+
+.insight__pair .insight__colon {
+    padding-right: 1ch;
+}
+
+.insight__block {
+    .insight__contents {
+    margin-left: calc(.5ch - .5px);
+    padding-left: calc(2.5ch - .5px);
+    border-left: 1px dashed #888;
+    }
+}
+
+.insight__factoryname {
+    color: #ff8;
+}

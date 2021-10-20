@@ -1,0 +1,13 @@
+.insight__label {
+    color: #6666;
+    cursor: pointer;
+    &.hover { color: #888 }
+    &.insight__conflict { color: #f00 }
+    input, input:focus, input:active {
+        cursor: initial;
+        padding: 0 2px;
+        margin: 0 2px;
+        border: 1px solid #888;
+        &:placeholder-shown { width: 0 }
+    }
+}

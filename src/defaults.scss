@@ -1,0 +1,9 @@
+.insight__undefined, .insight__null {
+    color: #0af;
+    /*color: #22f;
+    text-shadow: 0 0 4px #f44;*/
+}
+.insight__number { color: #aea; }
+.insight__bigint { color: #8d8; }
+.insight__boolean { color: #6247fa; }
+.insight__string { color: #fb9565; }

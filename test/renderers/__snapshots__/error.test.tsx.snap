@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`error closed 1`] = `
+<span
+  className="dt-error"
+  onClick={[Function]}
+>
+  <span
+    className="error_name"
+  >
+    Error
+    :
+  </span>
+  <span
+    className="error_message"
+  >
+    Something broke
+  </span>
+</span>
+`;
+
+exports[`error open 1`] = `
+<span
+  className="dt-error"
+  onClick={[Function]}
+>
+  <span
+    className="error_name"
+  >
+    Error
+    :
+  </span>
+  <span
+    className="error_message"
+  >
+    Something broke
+  </span>
+  <div
+    className="error_stack"
+  >
+    at foo (/project_path/foo.ts:2:14)
+at bar (/project_path/bar.ts:5:0
+  </div>
+</span>
+`;

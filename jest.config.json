@@ -1,0 +1,5 @@
+{
+    "moduleNameMapper": {
+        "\\.scss$": "<rootDir>/test/mocks/style.js"
+    }
+}

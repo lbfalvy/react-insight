@@ -1,0 +1,15 @@
+.dt-error {
+    display: inline block;
+    color: #f11;
+    cursor: default;
+    .error_name {
+        font-style: italic;
+        padding-right: 1ch;
+    }
+    .error_name, .error_message { cursor: pointer }
+    .error_stack {
+        color: #f44;
+        white-space: pre-wrap;
+        padding-left: 3ch;
+    }
+}

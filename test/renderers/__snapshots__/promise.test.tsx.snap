@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`promise renderer rejected 1`] = `
+<span
+  className="dt-promise"
+>
+  <span
+    className="promise_label"
+  >
+    Promise
+  </span>
+  <span
+    className="promise_sign"
+  >
+    <span
+      className="promise_rejected"
+    >
+      &lt;!&gt;
+    </span>
+  </span>
+  <span
+    className="promise_value"
+  >
+    <span
+      className="dt-error"
+      onClick={[Function]}
+    >
+      <span
+        className="error_name"
+      >
+        Error
+        :
+      </span>
+      <span
+        className="error_message"
+      >
+        something broke
+      </span>
+    </span>
+  </span>
+</span>
+`;
+
+exports[`promise renderer resolved 1`] = `
+<span
+  className="dt-promise"
+>
+  <span
+    className="promise_label"
+  >
+    Promise
+  </span>
+  <span
+    className="promise_sign"
+  >
+    <span
+      className="promise_fulfilled"
+    >
+      ==&gt;
+    </span>
+  </span>
+  <span
+    className="promise_value"
+  >
+    <span
+      className="dt-string"
+    >
+      "
+      Test string
+      "
+    </span>
+  </span>
+</span>
+`;

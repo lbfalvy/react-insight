@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`symbol renderer symbol 1`] = `
+<span
+  className="dt-symbol"
+>
+  <span
+    className="symbol_symbol"
+  >
+    Symbol
+  </span>
+  <span
+    className="symbol_lparen"
+  >
+    (
+  </span>
+  <span
+    className="symbol_description"
+  >
+    <span
+      className="dt-string"
+    >
+      "
+      test symbol
+      "
+    </span>
+  </span>
+  <span
+    className="symbol_rparen"
+  >
+    )
+  </span>
+</span>
+`;

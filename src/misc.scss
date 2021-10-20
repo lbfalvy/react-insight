@@ -1,0 +1,29 @@
+:root {
+    background-color: #181818;
+    color: #eee;
+    font-family: 'Source Code Pro';
+}
+
+.insight__input {
+    border: none;
+    font-family: inherit;
+    outline: none;
+    color: #eee;
+    background: none;
+}
+
+.insight__button {
+    background: none;
+    color: #999;
+    &:hover { color: #eee; }
+    &:active { color: #444; }
+    transition: color .1s linear;
+    // font-family: inherit;
+    text-transform: uppercase;
+    font-weight: 400;
+    transform-origin: 50% 100%;
+    transform: scale(.8);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}

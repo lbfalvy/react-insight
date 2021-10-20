@@ -1,0 +1,9 @@
+.insight__function {
+    .insight__keyword, .insight__arrow {
+        color: #44e;
+    }
+    .insight__args, .insight__body { color: #888; }
+    .insight__keyword, .insight__arrow, .insight__param {
+        margin-right: 1ch;
+    }
+}

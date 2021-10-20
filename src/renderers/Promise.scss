@@ -1,0 +1,14 @@
+.insight__promise {
+    .insight__promise_sign {
+        margin: 0 1ch;
+        .insight__promise_fulfilled {
+            color: #8f8;
+        }
+        .insight__promise_pending {
+            color: #88f;
+        }
+        .insight__promise_rejected {
+            color: #ff7f7f;
+        }
+    }
+}

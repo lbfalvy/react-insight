@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "target": "ESNext",
+        "moduleResolution": "node",
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "jsx": "react",
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "alwaysStrict": true,
+        "skipLibCheck": true
+    }
+}
